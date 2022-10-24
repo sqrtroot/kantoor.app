@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Kantoor App</title>
+  <meta name="description" content="Work at the office, this will help.">
+  <meta name="author" content="sqrtroot">
+  <link rel="stylesheet" href="https://unpkg.com/98.css">
+</head>
+
+<body style="background-color:#c0c0c0">
+  <main>
+    <div class="window" style="width: 320px">
+      <div class="title-bar">
+        <div class="title-bar-text">At the office</div>
+      </div>
+      <div class="window-body">
+        <p> So you are sitting at the office now what do you do:</p>
+        <div class="field-row">
+          <input id="radio1" type="radio" name="f">
+          <label for="radio1">Drink coffee</label>
+        </div>
+        <div class="field-row">
+          <input id="radio2" type="radio" name="f">
+          <label for="radio2">Play solitaire on your work pc</label>
+        </div>
+        <div class="field-row">
+          <input disabled="" id="radio3" type="radio" name="f">
+          <label for="radio3">Work</label>
+        </div>
+        <div class="field-row">
+          <input id="radio4" type="radio" name="f">
+          <label for="radio4">Take a nap</label>
+        </div>
+
+        <section class="field-row" style="justify-content: flex-end">
+          <button>Continue your workday</button>
+          <button>I'll go home</button>
+        </section>
+      </div>
+      <div class="status-bar">
+        <p class="status-bar-field">Press F1 for help</p>
+        <p class="status-bar-field">Slide 1</p>
+        <p class="status-bar-field">CPU Usage: -12%</p>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
